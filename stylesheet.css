@@ -1,0 +1,459 @@
+* {
+  margin: 0;
+  padding: 0;
+  gap: 0;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+}
+.justify {
+  justify-content: center;
+}
+.align {
+  align-items: center;
+}
+.space-even {
+  justify-content: space-evenly;
+}
+.space-btw {
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+  font-style: none;
+}
+nav {
+  width: 100%;
+}
+.nav-cont {
+  width: 100%;
+  padding: 34px;
+  background: rgba(250, 250, 250, 1);
+}
+.nav-content {
+  gap: 50px;
+}
+.nav-links {
+  gap: 34px;
+  font-family: Plus Jakarta Display;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24.6px;
+  text-align: left;
+}
+.tint:hover {
+  transition: 0.3s ease, color 0.3s ease;
+  color: rgba(0, 173, 238, 1);
+}
+.tint:hover {
+  transition: 0.3s ease, color 0.3s ease;
+  color: rgba(0, 173, 238, 1);
+}
+.cer:hover {
+  transition: 0.3s ease, color 0.3s ease;
+  color: rgba(0, 173, 238, 1);
+}
+.paint:hover {
+  transition: 0.3s ease, color 0.3s ease;
+  color: rgba(0, 173, 238, 1);
+}
+.wrap:hover {
+  transition: 0.3s ease, color 0.3s ease;
+  color: rgba(0, 173, 238, 1);
+}
+.about:hover {
+  transition: 0.3s ease, color 0.3s ease;
+  color: rgba(0, 173, 238, 1);
+}
+.blog:hover {
+  transition: 0.3s ease, color 0.3s ease;
+  color: rgba(0, 173, 238, 1);
+}
+.Btns {
+  gap: 12px;
+  width: 250px;
+  height: 46px;
+  cursor: pointer;
+}
+.btn-1 {
+  width: 110px;
+  height: 46px;
+  font-family: Plus Jakarta Display;
+  font-weight: bolder;
+  left: -0.26px;
+  gap: 8px;
+  border-radius: 3px;
+  border: 2px solid rgba(0, 173, 238, 1);
+  color: rgba(0, 173, 238, 1);
+  background-color: rgba(250, 250, 250, 1);
+  transition: 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+.btn-1 .phone {
+  fill: rgba(0, 173, 238, 1);
+  transition: fill 0.3s ease;
+}
+.btn-1 .call-us {
+  transition: color 0.3s ease;
+}
+.btn-1:hover {
+  background-color: rgba(0, 173, 238, 1);
+}
+.btn-1:hover .phone {
+  fill: rgba(250, 250, 250, 1);
+}
+.btn-1:hover .call-us {
+  color: rgba(250, 250, 250, 1);
+}
+.hamburger {
+  display: none;
+}
+.nav-links-hide {
+  display: none;
+}
+.hero-cont {
+  width: 100%;
+  height: 864px;
+  background-image: url(/asstes/Hero\ Image\ original.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0px;
+}
+.hero-con {
+  flex-direction: column;
+  padding-top: 188px;
+  padding-left: 80px;
+  left: 89.93px;
+  gap: 20px;
+}
+.header-txt {
+  width: 528px;
+  font-family: Plus Jakarta Display bold;
+  text-transform: uppercase;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.hero-p {
+  width: 500px;
+  font-family: Plus Jakarta Display;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.buttons {
+  width: 164.89px;
+  height: 56px;
+  position: relative;
+  top: 20px;
+  left: -120px;
+}
+.Btns-hero {
+  gap: 12px;
+  width: 250px;
+  height: 46px;
+  cursor: pointer;
+}
+.btn-1-hero {
+  width: 110px;
+  height: 46px;
+  font-family: Plus Jakarta Display;
+  font-weight: bolder;
+  gap: 8px;
+  border-radius: 3px;
+  border: 2px solid rgba(0, 173, 238, 1);
+  color: rgba(0, 173, 238, 1);
+  background-color: rgba(250, 250, 250, 1);
+  transition: 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+.btn-1-hero .phone-hero {
+  fill: rgba(0, 173, 238, 1);
+  transition: fill 0.3s ease;
+}
+.btn-1-hero .call-us-hero {
+  transition: color 0.3s ease;
+}
+.btn-1-hero:hover {
+  background-color: rgba(0, 173, 238, 1);
+}
+.btn-1-hero:hover .phone-hero {
+  fill: rgba(250, 250, 250, 1);
+}
+.btn-1-hero:hover .call-us-hero {
+  color: rgba(250, 250, 250, 1);
+}
+.car-brands-cont {
+  width: 100%;
+  padding: 34px;
+}
+.car-brands {
+  gap: 120px;
+}
+.perks-cont {
+  width: 100%;
+  margin-top: 12px;
+  padding: 34px 70px;
+}
+.perks {
+  flex-direction: column;
+}
+.thumbs {
+  width: 65px;
+  height: 65px;
+  top: 80px;
+  left: 216px;
+  padding: 8px 4px;
+  gap: 0px;
+  opacity: 0px;
+}
+.perks-h {
+  font-family: Plus Jakarta Display bold;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25.88px;
+  text-align: center;
+  width: 228px;
+  height: 52px;
+}
+.perks-p {
+  width: 296px;
+  height: 90px;
+  font-family: Plus Jakarta Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+.service-section-cont {
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 20px;
+  background: rgba(250, 250, 250, 1);
+}
+.our-service {
+  padding-left: 60px;
+  padding-top: 50px;
+}
+.our-services-btn {
+  width: 147px;
+  height: 50px;
+  padding: 8px 20px;
+  gap: 10px;
+  background: rgba(245, 252, 255, 1);
+  border-radius: 60px;
+  color: rgba(0, 173, 238, 1);
+  border: 1px solid rgba(0, 173, 238, 1);
+  font-family: Plus Jakarta Display bold;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.service-h {
+  font-family: Plus Jakarta Display bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: rgba(37, 49, 60, 1);
+  padding-left: 60px;
+  padding-top: 10px;
+  text-transform: capitalize;
+}
+.service-check {
+  padding-left: 60px;
+  padding-top: 10px;
+}
+.check-txt {
+  font-family: Plus Jakarta Display;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.37px;
+  text-align: left;
+}
+.service-cards {
+  width: 100%;
+  padding-top: 40px;
+}
+.tinting-card {
+  flex-direction: column;
+  width: 726px;
+  height: 540px;
+  border: 0.6px 0px 0px 0px;
+  background: rgba(223, 223, 223, 0.63);
+  /* padding: 22px; */
+}
+.tinting-head {
+  width: 367px;
+  height: 49px;
+  justify-content: flex-start;
+  padding-top: 80px;
+  padding-left: 50px;
+}
+.tint-h {
+  font-family: Plus Jakarta Display bold;
+  font-size: 38px;
+  color: rgba(37, 49, 60, 1);
+  font-weight: 700;
+  line-height: 49.17px;
+  text-align: left;
+}
+.tinting-para {
+  width: 466px;
+  height: 58px;
+  padding-left: 50px;
+  padding-top: 80px;
+}
+.tint-p {
+  font-family: Plus Jakarta Display;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 29.37px;
+  text-align: left;
+}
+.tint-check {
+  width: 100%;
+  /* padding-left: 20px; */
+}
+.tint-div {
+  flex-direction: row;
+  /* padding-left: 20px; */
+  padding-top: 80px;
+  gap: 20px;
+}
+.tint-div-2 {
+  flex-direction: row;
+  /* padding-left: 20px;   */
+  padding-top: 20px;  
+  gap: 48px;
+}
+
+.check-tint {
+  width: 199px;
+}
+.check-tint-p {
+  font-family: Plus Jakarta Display;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26.1px;
+  text-align: left;
+}
+@media (max-width: 1220px) {
+  .nav-cont {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-links {
+    display: none;
+  }
+  .Btns {
+    display: none;
+  }
+  .nav-links-hide {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    font-family: Plus Jakarta Display;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .hamburger {
+    display: flex;
+    width: 20px;
+    top: 26px;
+    height: 20px;
+    left: 335px;
+    gap: 7px;
+    opacity: 0px;
+  }
+  .hide-menu {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 173, 238, 0.21);
+    z-index: 2;
+    display: none;
+  }
+  .hide-menu-cont {
+    display: flex;
+    flex-direction: column;
+    right: 150px;
+    border-radius: 8px;
+    background: #fff;
+    position: absolute;
+    top: 90px;
+    padding: 16px;
+  }
+
+  .hidden-menu {
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .car-brands {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .car-brands {
+    gap: 28px;
+  }
+  .perks-cont {
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  .service-cards {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .tint-check {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+@media (max-width: 640px) {
+  .hide-menu-cont {
+    width: 100%;
+    right: 0;
+    top: 90px;
+  }
+  .hero-cont {
+    background-image: url(/asstes/Hero\ Image-mobile.png);
+  }
+  .hero-con {
+    width: 100%;
+  }
+  .header-txt {
+    max-width: 100%;
+    /* font-size: 30px; */
+  }
+  .service-h {
+    font-family: Plus Jakarta Display bold;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36.23px;
+    text-align: left;
+  }
+  .rec-car {
+    width: 375px;
+    height: 707px;
+    top: 160px;
+  }
+}
